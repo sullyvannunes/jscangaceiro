@@ -8,6 +8,6 @@ class Negociacoes {
     }
 
     paraArray() {
-        return auxNegociacoes;
+        return [].concat(this._negociacoes);
     }
 }
